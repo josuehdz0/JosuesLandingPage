@@ -46,6 +46,10 @@ a {
     transition: all 0.4s ease;
 }
 
+.rounded-top-4{
+    border-radius: .95rem .95rem 0rem 0rem;
+}
+
 a:hover {
     color: var(--color-brand);
 }
