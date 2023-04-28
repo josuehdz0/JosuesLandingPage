@@ -16,11 +16,11 @@
 
 /* NOTE my color template */
 :root {
-    --color-body: #37404a;
-    --color-heading: #7664fd;
-    --color-base: #c1e5ed;
-    --color-base2: #ffffff;
-    --color-brand: #ffa508;
+    --color-body: #e7eada;
+    --color-heading: #e7eada;
+    --color-base: #3b6d5f;
+    --color-base2: #e7eada;
+    --color-brand: #7fa49a;
     --color-brand2: #252623;
     --sidbar-width: 240px;
     /* --font-base: "Bai Jamjuree"; */
@@ -124,7 +124,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(--color-base, rgba(3, 63, 71, 0.8)), url(../images/sidebar.jpeg);
+        background: linear-gradient(#3b6d5ff1, rgba(3, 63, 71, 0.8)), url(../images/sidebar.jpeg);
         background-size: cover;
         background-position: center;
     }
